@@ -51,3 +51,47 @@
     font-weight: 700;
     font-style: normal;
 }
+
+body {
+    background: var(--white);
+    font-family: var(--font-body);
+    color: var(--stone-900);
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.2rem;
+    color: var(--stone-600);
+}
+
+#prep-time {
+    background: var(--rose-50);
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+#prep-time h2 {
+    color: var(--rose-800);
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
